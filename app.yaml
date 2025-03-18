@@ -1,4 +1,4 @@
-runtime: nodejs16
+runtime: nodejs>=16
 
 handlers:
   - url: /.*
