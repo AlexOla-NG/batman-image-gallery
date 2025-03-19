@@ -14,6 +14,7 @@ function imageTemplate(id, imageData) {
         <figcaption>${imageData.caption}</figcaption>
       </figure>
       <a href="/" class="back-link">Back to Gallery</a>
+      <a href="/meta/${id}" class="back-link">Get metadata</a>
     </body>
     </html>
   `;
